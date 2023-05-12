@@ -1,10 +1,10 @@
-#Program 7 Design Document: Client Web Server Fetch
+# Program 7 Design Document: Client Web Server Fetch
 
 Name - Zachary Handel
 CS 440 - Program 7
 March 3, 2023
 
-#Program Requirements
+# Program Requirements
 This document describes the client web server fetch program. The client will will implement a utility to fetch a single asset (file) from a web server and save it into a file.
 Some things to note:
 - The client will speak the 1.0 http protrocol (see RFC 1945). Web servers that speak http listen on tcp port 80.
@@ -24,7 +24,7 @@ Some things to note:
 	- fwrite
 	- fclose
 
-#Program Inputs
+# Program Inputs
 2 arguments are accepted:
 - the hostname of the web server (REQUIRED)
 - the fully qualified path and name of the requested asset (OPTIONAL)
@@ -38,8 +38,8 @@ The program will output one of the following based on predefined conditions:
 - An outputted asset folder
 - An outputted index.html folder
 
-#Test Cases
-##Test Case 1: Testing Client Command Line Arguments
+# Test Cases
+## Test Case 1: Testing Client Command Line Arguments
 For this, Try running the client inside the command line with the following inputs:
 	- ./webclient cs.csis.work
 	- ./webclient cs.csis.work /
@@ -47,10 +47,10 @@ For this, Try running the client inside the command line with the following inpu
 	- ./webclient cs.csis.work /images/cat.jpg
 NOTE: THESE INPUTS CAN VARY DEPENDING ON THE DESIRED FILE
 
-##Test Case 2: Test for false input
+## Test Case 2: Test for false input
 For this, test the command line with invalid argument characters. The program should prompt the user that invalid URI characters were detected.
 
-##Test Case 3: Test for Proper File Output
+## Test Case 3: Test for Proper File Output
 For this, run the webclient program with and without the second argument. For one argument, the program should output the web servers index.html. For two arguments, the program should output just the bare filename.
 
 
