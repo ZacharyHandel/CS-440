@@ -5,7 +5,7 @@ CS 440 - Assignment #5
 March 3, 2023
 
 # Program Requirements
-This document describes the design for a migic 8 ball protocol server and client operating on TCP port 11627. The protocol consists of 5 message types:
+This document describes the design for a magic 8 ball protocol server and client operating on TCP port 11627. The protocol consists of 5 message types:
 - 10: A 'hello' from the client sent to the server
 - 20: A 'hello, from the server sent to the client
 - 30: A yes/no question sent from the client to the server
