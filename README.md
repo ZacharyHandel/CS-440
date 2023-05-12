@@ -21,6 +21,7 @@ Program 6 was an on-paper assignment and cannot be provided.
 ### Program 8
 [Program 8](https://github.com/ZacharyHandel/CS-440/edit/master/program-8/README.md) is a client/server connection that uses a simple FTP protocol to send different message types to perform various tasks. More information can be found in the [README](https://github.com/ZacharyHandel/CS-440/blob/master/program-8/README.md) of the program.
 ### Program 9
+[Program 9](https://github.com/ZacharyHandel/CS-440/tree/master/program-9) is a client/server connection that was required for the class's final exam. It uses a basic directory listing protocol where the server will send a specific listing from a requested directory to the client. 
 All programs use TCP socket programming in C. They are server/client connections with various tasks like file transfer and directory listing.
 
 ![](https://media.giphy.com/media/3oKIPpFhwsMNrRIjN6/giphy.gif)
