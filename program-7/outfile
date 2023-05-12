@@ -1,0 +1,43 @@
+HTTP/1.0 200 OK
+Connection: close
+Content-Length: 1740
+Content-Type: text/html
+Date: Sat, 25 Mar 2023 02:33:16 GMT
+Last-Modified: Mon, 23 Jan 2023 21:57:46 GMT
+Server: OpenBSD httpd
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>University of North Alabama Computer Science Server</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Computer Science Scholarships">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Computing Excellence Scholarships</h2>
+
+<p style="text-indent:50px;">The Department of Computer Science and Information Systems is seeking applicants for our <a href="https://www.una.edu/computing">Computing Excellence Scholarship</a> Program. We have $2.5 million per year to assist computing majors complete their degree. Students majoring in Computer Science, Information Technology, and Information Systems are eligible to apply.</p>
+
+<img src="csis_math.jpg" alt="UNA Computer Science and Math Building">
+
+<div class="notice">
+  <p>********************************************************************************</p>
+  University of North Alabama<br>
+  Department of Computer Science and Information Systems<br>
+  <p>********************************************************************************</p>
+  Access to this system at the University of North Alabama is restricted to<br>
+  employees, students, or individuals authorized by the Department of<br>
+  Computer Science and Information Systems. Unauthorized use of this system is<br>
+  prohibited and may result in administrative or legal action. Access to this<br>
+  system is monitored for purposes related to security management,<br>
+  system operations, and intellectual property compliance.<br>
+  <p>&nbsp;</p>
+</div>
+
+<p><a href="acm/">UNA Student chapter of ACM</a></p>
+<p><a href="fingerprints/">Fingerprints</a></p>
+</body>
+</html>
