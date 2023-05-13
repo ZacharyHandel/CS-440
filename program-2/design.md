@@ -33,3 +33,20 @@ Test Case 2:
 	- The expected input for this test case will be either the user input from the client side or the command shown above. The output will be the current date/time from the server onto the client's terminal.
 # Solution Overview
 First, edit the daytime server and change the port to the desired testing port (when done, you will switch back to 1313, but for testing purposes the port will be 11627). Then, edit the Makefile to correctly compile the desired files using the clang compiler. You will then compile the skeleton code and the result should be two executable files. Once that is done, you will use tmux to create 2 console screens (one for the server and one for the client). You will then test the connection between the two by running the server and then running the client to connect to the server on the correct hostname. Then, type some messages from the client side and see if they come into the server's terminal. If this happens, you have connection between the two. After you have established a connection between the client and the server, you will need to edit the server daytime C file in order to make it display the current date/time whenever a client is connected. This will happen by the server listening unil a client is connected. Once the client is connected to the correct address the message will be displayed on the client's screen. We will then close the connection after the quote is send according to the RFC 867. 
+
+# How to Run
+## How to Run
+1. Download the [Clang Compiler](https://releases.llvm.org/download.html)
+2. In the same directory as the program, use Clang to compile client_daytime.c and server_daytime.c
+```bash
+clang client_daytime.c server_daytime.c -o <out-file-name-here>
+```
+3. Run the server in its own terminal
+```bash
+./<server-out-file-name-here>
+```
+4. Connect the client to the server in a seperate terminal by running
+```bash
+./<client-out-file-name-here> local host <port-number-here>
+```
+5. Observe the output to the client terminal
